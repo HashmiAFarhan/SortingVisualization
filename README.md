@@ -16,7 +16,8 @@ This project is a **Sorting Algorithm Visualizer** that demonstrates how popular
 - Responsive and interactive UI built with HTML, CSS, and Bootstrap
 - Red bars with white spacing for clear visual distinction
   ## 📸 Screenshot
-  [sortingVisualization pic](https://github.com/user-attachments/assets/3f884509-2d90-4054-b17f-caa0d4158fd6)
+ 
+![sortingVisualization pic](https://github.com/user-attachments/assets/c70a9e7d-5358-4943-8d5f-4a1fd2885cf6)
 
 ## 🛠️ Technologies Used
 
