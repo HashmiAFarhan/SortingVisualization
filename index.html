@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container text-center my-5">
+        <h1 class="mb-4">Sorting Visualizer</h1>
+        <div class="controls mb-4">
+            <button class="btn btn-primary mx-2" onclick="generateArray()">Generate New Array</button>
+            <button class="btn btn-secondary mx-2" onclick="showDescription('bubbleSort')">Bubble Sort</button>
+            <button class="btn btn-secondary mx-2" onclick="showDescription('insertionSort')">Insertion Sort</button>
+            <button class="btn btn-secondary mx-2" onclick="showDescription('selectionSort')">Selection Sort</button>
+            <button class="btn btn-secondary mx-2" onclick="showDescription('mergeSort')">Merge Sort</button>
+            <button class="btn btn-secondary mx-2" onclick="showDescription('quickSort')">Quick Sort</button>
+        </div>
+        <div id="array-container" class="d-flex align-items-end justify-content-center border" style="height: 400px;"></div>
+        <div class="my-4">
+            <label for="speedRange">Speed:</label>
+            <input type="range" id="speedRange" min="1" max="1000" value="500">
+        </div>
+        <div id="description-container" class="my-4"></div>
+        <div id="controls-container" class="my-4"></div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>

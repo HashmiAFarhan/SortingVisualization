@@ -1,0 +1,98 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    max-width: 800px; /* Adjust max width of content container */
+    margin: 0 auto; /* Center align container */
+    padding: 20px; /* Add padding for content */
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px; /* Space below control buttons */
+}
+
+.btn {
+    cursor: pointer; /* Pointer cursor for buttons */
+    margin: 5px; /* Margin between buttons */
+    flex: 1; /* Equal width for all buttons */
+    max-width: 150px; /* Limit max width of buttons */
+}
+
+/* Array visualization */
+#array-container {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f0f0f0; /* Light gray background */
+    display: flex;
+    align-items: flex-end; /* Align bars at the bottom */
+}
+
+.bar {
+    flex: 1; /* Flexible width for bars */
+    background-color: #ff4d4d; /* Red bars */
+    margin: 0 1px;
+}
+
+/* Description section */
+#description-container {
+    text-align: left; /* Left align text */
+}
+
+/* Speed slider */
+input[type=range] {
+    width: 80%; /* Adjust width of slider */
+    margin-top: 5px;
+}
+
+/* Controls section */
+#controls-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap; /* Allow buttons to wrap */
+}
+
+/* Button styles */
+.btn-success {
+    background-color: #28a745; /* Green for start button */
+    color: #fff; /* White text */
+    border-color: #28a745;
+}
+
+.btn-danger {
+    background-color: #dc3545; /* Red for stop button */
+    color: #fff; /* White text */
+    border-color: #dc3545;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Blue for generate array button */
+    color: #fff; /* White text */
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Gray for algorithm buttons */
+    color: #fff; /* White text */
+    border-color: #6c757d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .controls {
+        flex-wrap: wrap;
+    }
+    .btn {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
