@@ -2,7 +2,7 @@
 
 This project is a **Sorting Algorithm Visualizer** that demonstrates how popular sorting algorithms work using animated bars. Users can control the speed of the animations and choose from different sorting techniques.
 
-## 🔍 Features![sortingVisualization pic](https://github.com/user-attachments/assets/3f884509-2d90-4054-b17f-caa0d4158fd6)
+## 🔍 Features!
 
 
 - Visual representation of sorting process using bars
@@ -15,6 +15,8 @@ This project is a **Sorting Algorithm Visualizer** that demonstrates how popular
   - Quick Sort
 - Responsive and interactive UI built with HTML, CSS, and Bootstrap
 - Red bars with white spacing for clear visual distinction
+  ## 📸 Screenshot
+  [sortingVisualization pic](https://github.com/user-attachments/assets/3f884509-2d90-4054-b17f-caa0d4158fd6)
 
 ## 🛠️ Technologies Used
 
